@@ -48,7 +48,7 @@ MrWatson
 
 [fmLaunchPad home]:https://www.fmworkmate.com/fmlaunchpad
 [fmLaunchPad repo]:https://github.com/mrwatson-de/fmLaunchPad
-[fmLaunchPad logo]:fmLaunchPadLogo_512_sm.png
+[fmLaunchPad logo]:fmLaunchPadLogo_256_sm.png
 [fmLaunchPadRocket]:fmLaunchPadRocket50_sm.png
 [MBS-Plugin]:https://www.monkeybreadsoftware.com/filemaker/
 [mrwatson.de logo]:www.mrwatson.de_neon_128.png
