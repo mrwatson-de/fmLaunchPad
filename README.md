@@ -16,13 +16,13 @@ MrWatson's fmLaunchPad - a cheeky little rocket with multiple segments -  allows
 
 ![fmLaunchPadRocket][fmLaunchPadRocket]
 
-Decide what datbase to open based on...
+Decide what database to open based on...
 
 - the FileMaker Version,
 - the name or location of the application (*),
 - modifier keys,
 - the presence in a particular network,
-- the availavbility of a file at a particular path,
+- the availability of a file at a particular path,
 - or even based on the time of day, if you want!
 
 (*) Duplicate your FileMaker app, and move it to a special folder - or just rename it (Mac), so that its folder or app name can be used to define which database to start.
