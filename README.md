@@ -91,7 +91,7 @@ fmLaunchPad comes with a basic rocket that you need to customize to your specifi
 
 3. Define the Module's launch conditions
 
-  - There is a little + button to the right of the Else If, you can use to insert various conditions
+   - There is a little + button to the right of the Else If, you can use to insert various conditions
 
 4. Setup Module options
 
