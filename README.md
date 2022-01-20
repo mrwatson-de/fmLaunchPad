@@ -2,7 +2,7 @@
 # fmLaunchPad
 [3-2-1 FileMaker is GO!]
 
-A little rocket to help you start the FileMaker file you want.
+A cheeky little rocket to help you start the FileMaker file you want.
 
 ## The Problem
 
