@@ -18,6 +18,7 @@ A little rocket to help you start the FileMaker file you want.
 
 ![fmLaunchPadRocket][fmLaunchPadRocket]
 
+Just launch fmLaunchPad - or manually set light to the rocket's flame - and your off! 🚀
 
 ## Getting started
 
