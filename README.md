@@ -2,7 +2,7 @@
 # fmLaunchPad
 [3-2-1 FileMaker is GO!]
 
-A little rocket to help you start the FileMaker file you want.
+A cheeky little rocket to help you start the FileMaker file you want.
 
 ## The Problem
 
@@ -18,25 +18,7 @@ A little rocket to help you start the FileMaker file you want.
 
 ![fmLaunchPadRocket][fmLaunchPadRocket]
 
-You can decide what datbase to open based on...
-
-- the FileMaker Version,
-- the name or location of the application (*),
-- modifier keys,
-- the presence in a particular network,
-- the availavbility of a file at a particular path,
-- or even based on the time of day/month/year, if you want!
-
-## Creating multiple FileMaker apps
-
-(*) On Mac it is possible to simply duplicate the FileMaker.app to make a separate instance of FileMaker to use with your target database.
-
-1. Duplicate the FileMaker app
-2. Rename it or place it in a named Folder
-3. Change the file icon to suit your app
-4. Define a module in fmLaunchPad to launch your target database when this app starts (based on the folder or app name).
-
-On Windows you can only distinguish FileMaker versions (as far as I know).
+Just launch fmLaunchPad - or manually set light to the rocket's flame - and your off! 🚀
 
 ## Getting started
 
@@ -91,7 +73,21 @@ fmLaunchPad comes with a basic rocket that you need to customize to your specifi
 
 3. Define the Module's launch conditions
 
-  - There is a little + button to the right of the Else If, you can use to insert various conditions
+   You can decide what datbase to open based on...
+
+   - the FileMaker Version,
+   - the name or location of the application (*),
+   - modifier keys,
+   - the presence in a particular network,
+   - the availavbility of a file at a particular path,
+   - or even based on the time of day/month/year, if you want!
+
+   There is a little + button to the right of the Else If, you can use to insert various conditions.
+   
+   You want to always open the same file?
+   
+   - click the tiny hidden checkbox to the left of the If
+   - or just enter always (or a 1) into the launch conditions field
 
 4. Setup Module options
 
@@ -133,6 +129,21 @@ fmLaunchPad has a cool solution to this problem: **Capsules!**
 When the module is launched fmWorkmate launches a separate 'capsule' - that is, it saves and opens a separate starter file - allowing the rocket to immediately 'fall back to earth' (close), allowing a second FileMaker app to start immediately and without conflict!
 
 => One fmLaunchPad, multiple Capsules, no conflicts!
+
+## Creating multiple FileMaker apps (on Mac)
+
+If you have several FileMaker solutions that you want to run alongside each other, you might want to consider creating multiple apps - one for each solution.
+
+(*) On Mac it is possible to simply duplicate the FileMaker.app to make a separate instance of FileMaker to use with your target database.
+
+1. Duplicate the FileMaker app
+2. Rename it or place it in a named Folder
+3. Change the file icon to suit your app
+4. Define a module in fmLaunchPad to launch your target database when this app starts (based on the folder or app name).
+
+On Windows you can only distinguish FileMaker versions (as far as I know).
+
+This is a good way to create a separate app for fmWorkMate.
 
 ## Example Setup for fmWorkMate
 
