@@ -25,22 +25,25 @@ Just launch fmLaunchPad - or manually set light to the rocket's flame - and your
 1. Download the [latest release][fmLaunchPad releases] of fmLaunchPad.
 
 2. Move the folder into the Applications folder (recommended, but anywhere will do)
-   - If you also have [fmWorkMate][fmWorkMate home] place the fmLaunchPad folder alongside the fmWorkMate folder if you wish to open/edit fmLaunchPad from fmWorkMate.
+   - Note: If you also have [fmWorkMate][fmWorkMate home] place the fmLaunchPad folder alongside the fmWorkMate folder if you wish to open/edit fmLaunchPad from fmWorkMate.
 
-3. Open fmLaunchPad in FileMaker => The welcome screen should appear
-4. Read through the instructions to get an idea how fmLaunchPad works
-5. Prepare your rocket and modules as necessary for your requirements, as documented below
+3. Read the instruction manual!
+   - Never launch any rocket without reading the manual. 😉
+4. Open fmLaunchPad in FileMaker
+   - The welcome screen should appear
+5. Prepare your rocket and modules as necessary for your requirements
+   - see below
 6. Prime your rocket to launch at startup
 
-    1. Open the FileMaker Settings
+    1. Open FileMaker Settings
     2. Select 'At startup, open file'
     3. Choose the fmLaunchPad file.
 
-7. Launch your rocket
+7. Test Launch your rocket
 
-  - Click the flame at the bottom
-  - Or simply restart FileMaker 
-
+   - Close and restart FileMaker 
+   - Or click the flame in rocket view
+  
 
 ## Preparing your Rocket
 
@@ -71,9 +74,17 @@ fmLaunchPad comes with a basic rocket that you need to customize to your specifi
      - See the help pages for more functions you can use
      - See the example setup for fmWorkMate below
 
-3. Define the Module's launch conditions
+3. Define each module's launch conditions
 
-   You can decide what datbase to open based on...
+   The launch condition(s) determine when a module is triggered.
+
+   - To get help adding launch conditions
+     - click the + button under the If
+   
+   - To make the action always happen
+     - click the If button -> a tick appears.
+
+   You can decide what database to open based on...
 
    - the FileMaker Version,
    - the name or location of the application (*),
@@ -82,28 +93,32 @@ fmLaunchPad comes with a basic rocket that you need to customize to your specifi
    - the availavbility of a file at a particular path,
    - or even based on the time of day/month/year, if you want!
 
-   There is a little + button to the right of the Else If, you can use to insert various conditions.
-   
-   You want to always open the same file?
-   
-   - click the tiny hidden checkbox to the left of the If
-   - or just enter always (or a 1) into the launch conditions field
+   See the in-app help for details.
 
-4. Setup Module options
+4. Define what action to take
+
+   - Start a countdown (to allow user to abort if necessary)
+   - Launch a file, a url, an app-file (relative to the app)
+
+   See the in-app help for more details.
+
+5. Setup Module options
 
    - In the module options you can
-     - turn a module on or off
-     - set a module to launch in capsule mode (see below)
-     - or duplicate/delete a module
+     - disable/enable a module
+     - set a module to launch in **capsule mode**
+       - avoids interference between concurrent launches
+         - see below
+     - duplicate/delete a module
 
-5. Setup Module order
+6. Setup Module order
 
    - Modules are triggered from top to bottom
    - To reorder a module
      1. Click the moduler's move button on the far right
      2. Click the move button at the place where the module should appear
 
-6. Setup Preflight Check, if necessary
+7. Setup Preflight Check, if necessary
 
     In the Preflight Check you can define $$variables which can be used in the module start conditions, for example:
 
@@ -114,7 +129,7 @@ fmLaunchPad comes with a basic rocket that you need to customize to your specifi
     In a module start condition you can then simply reference the $$variables:
 
     ```
-    Else If
+    If
         $$OfficeNetwork
     ```
 
@@ -147,7 +162,7 @@ This is a good way to create a separate app for fmWorkMate.
 
 ## Example Setup for fmWorkMate
 
-Here you can find [a step by step description of how you set up fmLaunchPad to start a custom fmWorkMate app](https://github.com/mrwatson-de/fmWorkMate/Setting_up_fmWorkMate_with_fmLaunchPad.md).
+Here you can find [a step by step description of how you set up fmLaunchPad to start a custom fmWorkMate app](https://github.com/mrwatson-de/fmWorkMate/docs/Setting_up_fmWorkMate_with_fmLaunchPad.md).
 
 ## Known Issues
 
