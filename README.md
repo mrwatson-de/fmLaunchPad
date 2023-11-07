@@ -162,7 +162,7 @@ This is a good way to create a separate app for fmWorkMate.
 
 ## Example Setup for fmWorkMate
 
-Here you can find [a step by step description of how you set up fmLaunchPad to start a custom fmWorkMate app](https://github.com/mrwatson-de/fmWorkMate/docs/Setting_up_fmWorkMate_with_fmLaunchPad.md).
+Here you can find [a step by step description of how you set up fmLaunchPad to start a custom fmWorkMate app](https://github.com/mrwatson-de/fmWorkMate/blob/main/docs/Setting_up_fmWorkMate_with_fmLaunchPad.md).
 
 ## Known Issues
 
@@ -199,7 +199,7 @@ MrWatson
 [fmLaunchPad logo]:fmLaunchPadLogo_256_sm.png
 [fmLaunchPad releases]:https://github.com/mrwatson-de/fmLaunchPad/releases
 [fmLaunchPadRocket]:fmLaunchPadRocket50_sm.png
-[fmWorkMate home]:https://www.fmworkmate.com/fmWorkMate
+[fmWorkMate home]:https://www.fmworkmate.com/fmworkmate
 [MBS-Plugin]:https://www.monkeybreadsoftware.com/filemaker/
 [mrwatson.de logo]:www.mrwatson.de_neon_128.png
 [mrwatson.de]:http://www.mrwatson.de
